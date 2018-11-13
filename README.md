@@ -1,14 +1,23 @@
 # Lassie
-AWS Lambda function monitoring under Lassie's CLI.
+
+The ephemeral nature of AWS Lambda functions makes them difficult to monitor and debug. Current monitoring services either: 
+(A) Rely on logs generated from AWS Cloudwatch, which offers limited and less granular data than ideal at less than real-time speed, or 
+(B) Retroactively fit monitoring code onto existing Lambda functions, adding additional time, overhead, and expense to the deployment process. 
+
+Lassie’s integration with the AWS CLI allows users to follow the traditional process of deploying Lambda functions while instantly viewing performance metrics & visuals in a locally hosted browser window. The free, open-source nature of the tool allows for unlimited customization. 
+
+
+
+
 ## Getting Started
 
 These instructions will get you Lassie's CLI running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Configuration with aws cli is provided. See CLI Commands below for more documentation.
+Configuration with AWS-CLI is provided. See CLI Commands below for more documentation.
 
 ### Prerequisites
 
-Install the aws cli
+Install the AWS-CLI
 ```
 https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 ```
